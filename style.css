@@ -12,6 +12,7 @@ body{
 }
 .material-icons{
     vertical-align: middle;
+    color: gray;
 }
 .main-area{
     display:flex;
@@ -26,13 +27,31 @@ body{
     align-items: center;
 }
 .searchbox-container .logo{
-    margin: 40px;
+    margin: 40px 40px 30px 40px;
 }
 .searchbox-container .search-form{
     margin-bottom: 20px;
 }
+.search-box{
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+}
+.search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.search-box .material-icons{
+    font-size: 1.2em;
+}
+.search-box .mic{
+    font-size: 1.5em;
+}
 .search-form .search-area{
-    width:40vw;
+    background-color: transparent;
+    width:37vw;
+    border:none;
+    outline: none;
 }
 .searchbox-container .button-container{
     display: flex;
