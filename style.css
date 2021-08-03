@@ -1,0 +1,32 @@
+*{
+    border: solid red 1px;  
+}
+body{
+    margin: 0px;
+}
+.main-area{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.searchbox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox-container .logo{
+    margin: 40px;
+}
+.searchbox-container .search-form{
+    margin-bottom: 20px;
+}
+.search-form .search-area{
+    width:40vw;
+}
+.searchbox-container .button-container{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
