@@ -1,6 +1,3 @@
-*{
-    border: solid red 1px;  
-}
 body{
     margin: 0px;
 }
@@ -13,6 +10,7 @@ body{
 .material-icons{
     vertical-align: middle;
     color: gray;
+    user-select: none;
 }
 .main-area{
     display:flex;
@@ -56,7 +54,24 @@ body{
 .searchbox-container .button-container{
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.button-container button{
+    background-color: #F1F1F1;
+    color: #5F6368;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-size:14px;
+    border: 1px solid #F1F1F1;
+}
+.button-container button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+} 
+.button-container button:active{
+    border: 1px solid cornflowerblue;
 }
 .footerbar{
     display:flex;
