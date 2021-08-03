@@ -4,11 +4,20 @@
 body{
     margin: 0px;
 }
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.navbar .material-icons{
+    vertical-align: middle;
+}
 .main-area{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 66px;
 }
 .searchbox-container{
     display: flex;
