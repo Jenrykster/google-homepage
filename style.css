@@ -1,16 +1,34 @@
 body{
     margin: 0px;
 }
+
+a{
+    text-decoration: none;
+    color:inherit;
+    opacity: 0.75;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
 .navbar{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px;
+    margin: 20px;
+}
+.navbar *{
+    margin:0px 5px;
 }
 .material-icons{
     vertical-align: middle;
     color: gray;
     user-select: none;
+}
+.apps:hover{
+    color:black;
+    text-decoration: none;
+    cursor:pointer;
 }
 .main-area{
     display:flex;
@@ -47,16 +65,16 @@ body{
 }
 .search-form .search-area{
     background-color: transparent;
-    width:37vw;
+    width:30vw;
     border:none;
     outline: none;
 }
 .searchbox-container .button-container{
     display: flex;
-    width: 50%;
+    width: 70%;
     justify-content: space-evenly;
 }
-.button-container button{
+.button{
     background-color: #F1F1F1;
     color: #5F6368;
     border-radius: 4px;
@@ -64,14 +82,22 @@ body{
     font-size:14px;
     border: 1px solid #F1F1F1;
 }
-.button-container button:hover{
+.button:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     border: 1px solid #c6c6c6;
     color: #222;
     cursor: pointer;
 } 
-.button-container button:active{
+.button:active{
     border: 1px solid cornflowerblue;
+}
+.blue-button{
+    background-color:#4285f4;
+    color: white;
+}
+.blue-button:hover{
+    color:white;
+    border:1px solid;
 }
 .footerbar{
     display:flex;
