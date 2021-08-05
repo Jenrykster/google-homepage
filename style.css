@@ -26,7 +26,7 @@ a:hover{
     color: gray;
     user-select: none;
 }
-.apps:hover{
+#apps:hover{
     color:black;
     text-decoration: none;
     cursor:pointer;
@@ -61,10 +61,10 @@ a:hover{
 .search-box .material-icons{
     font-size: 1.2em;
 }
-.search-box .mic{
+#mic{
     font-size: 1.5em;
 }
-.search-form .search-area{
+#search-input{
     background-color: transparent;
     width:30vw;
     border:none;
@@ -92,11 +92,11 @@ a:hover{
 .button:active{
     border: 1px solid cornflowerblue;
 }
-.blue-button{
+#sign-in{
     background-color:#4285f4;
     color: white;
 }
-.blue-button:hover{
+#sign-in:hover{
     color:white;
     border:1px solid;
 }
@@ -141,13 +141,13 @@ a:hover{
     .button {
         padding: 4px 9px;
     }
-    .search-form .search-area{
+    #search-input{
         width: 60vw;
     }
     .button-container button{
         margin: 2px;
     }
-    .blue-button{
+    #sign-in{
         width: 50%;
         font-size: 0.9em;
         white-space: nowrap;
